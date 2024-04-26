@@ -1,0 +1,264 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+}
+
+.mainContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 900px;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 350px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.ipt{
+    display: flex;
+    justify-content: center;
+}
+
+.ipt input{
+    width: 330px;
+    height: 60px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    font-size: 50px;
+    text-align: right;
+
+}
+
+.firstRow{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.ac button{
+    height: 70px;
+    width: 70px;
+    border-radius: 40px;
+    background-color: rgba(245, 228, 228, 0.714);
+    font-size: 25px;
+    border: none;
+}
+
+.del button{
+    height: 70px;
+    width: 70px;
+    border-radius: 40px;
+    background-color: rgba(245, 228, 228, 0.714);
+    font-size: 25px;
+    border: none;
+}
+
+.pct button{
+    height: 70px;
+    width: 70px;
+    border-radius: 40px;
+    background-color: rgba(245, 228, 228, 0.714);
+    font-size: 25px;
+    border: none;
+}
+
+.div button{
+    height: 70px;
+    width: 70px;
+    border-radius: 40px;
+    background-color: orange;
+    font-size: 25px;
+    border: none;
+}
+
+.secondRow{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+
+.sev button{
+    height: 70px;
+    width: 70px;
+    border-radius: 40px;
+    font-size: 25px;
+    color: white;
+    background-color: rgba(102, 100, 100, 0.605);
+    border: none;
+}
+
+.eig button{
+    height: 70px;
+    width: 70px;
+    border-radius: 40px;
+    font-size: 25px;
+    color: white;
+    background-color: rgba(102, 100, 100, 0.605);
+    border: none;
+}
+
+.nin button{
+    height: 70px;
+    width: 70px;
+    border-radius: 40px;
+    font-size: 25px;
+    color: white;
+    background-color: rgba(102, 100, 100, 0.605);
+    border: none;
+}
+
+.sta button{
+    height: 70px;
+    width: 70px;
+    border-radius: 40px;
+    background-color: orange;
+    font-size: 25px;
+    border: none;
+}
+
+.thirdRow{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.fou button{
+    height: 70px;
+    width: 70px;
+    border-radius: 40px;
+    font-size: 25px;
+    color: white;
+    background-color: rgba(102, 100, 100, 0.605);
+    border: none;
+}
+
+.fiv button{
+    height: 70px;
+    width: 70px;
+    border-radius: 40px;
+    font-size: 25px;
+    color: white;
+    background-color: rgba(102, 100, 100, 0.605);
+    border: none;
+}
+
+.six button{
+    height: 70px;
+    width: 70px;
+    border-radius: 40px;
+    font-size: 25px;
+    color: white;
+    background-color: rgba(102, 100, 100, 0.605);
+    border: none;
+}
+
+.sub button{
+    height: 70px;
+    width: 70px;
+    border-radius: 40px;
+    background-color: orange;
+    font-size: 25px;
+    border: none;
+}
+
+.forthRow{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.one button{
+    height: 70px;
+    width: 70px;
+    border-radius: 40px;
+    font-size: 25px;
+    color: white;
+    background-color: rgba(102, 100, 100, 0.605);
+    border: none;
+}
+
+.two button{
+    height: 70px;
+    width: 70px;
+    border-radius: 40px;
+    font-size: 25px;
+    color: white;
+    background-color: rgba(102, 100, 100, 0.605);
+    border: none;
+}
+
+.three button{
+    height: 70px;
+    width: 70px;
+    border-radius: 40px;
+    font-size: 25px;
+    color: white;
+    background-color: rgba(102, 100, 100, 0.605);
+    border: none;
+}
+
+.sum button{
+    height: 70px;
+    width: 70px;
+    border-radius: 40px;
+    background-color: orange;
+    font-size: 25px;
+    border: none;
+    
+}
+
+.fifthRow{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.zero button{
+    height: 70px;
+    width: 140px;
+    border-radius: 40px;
+    font-size: 25px;
+    color: white;
+    background-color: rgba(102, 100, 100, 0.605);
+    border: none;
+}
+
+.dot button{
+    height: 70px;
+    width: 70px;
+    border-radius: 40px;
+    font-size: 25px;
+    color: white;
+    background-color: rgba(102, 100, 100, 0.605);
+    border: none;
+}
+
+.eql button{
+    height: 70px;
+    width: 70px;
+    border-radius: 40px;
+    background-color: orange;
+    font-size: 25px;
+    border: none;
+}
+
